@@ -8,8 +8,8 @@ public class Persona {
         this.edad = edad;
         this.direccion = direccion;
     }
-    
-    @override
+
+    @Override
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Dirección: " + direccion;
     }
